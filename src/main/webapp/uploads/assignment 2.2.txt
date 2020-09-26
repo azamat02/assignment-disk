@@ -1,0 +1,12 @@
+Azamat Saiduly SE-1909
+CREATE TABLE Employees(
+	id int not null auto_increment,
+    last_name text not null,
+    first_name text not null,
+    middle_name text not null,
+    age int not null,
+    current_status varchar(255) not null default 'employed',
+    PRIMARY KEY (id)
+);
+
+select * from Employees
